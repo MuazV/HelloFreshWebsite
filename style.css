@@ -2,20 +2,82 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* #83A638
+    #A1BF73
+    #558C03
+    #F2F2F2 */
 }
 
 body{
-    background-color: gray;
+    background-color: #A1BF73;
+    background-image: 
+    linear-gradient(to left,rgba(131, 166, 56, 0.3),rgba(242, 242, 242, 0.3)),
+    url(./img/meal-2834549_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 .nav{
-    background-color: aliceblue;
+    background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav__div{
     display: flex;
     justify-content: center;
-    height: 50px;
-    line-height: 25px;
+    height: 70px;
+    align-items: center;
+    margin: 0 30px;
+    
+}
+.nav__div--logo{
+    height: 40px;
+    
+}
+.nav__div--p-special{
+    font-size: 14px;
+}
+.nav__div--button{
+    height: 60%;
+    padding: 10px 45px;
+    font-size: 14px;
+    background-color: #558C03;
+    color: #F2F2F2;
+    border-style: none;
+    border-radius: 5px;
+}
+.section{
+    background-color: #F2F2F2;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border: 2px red solid;
+    top: 200px;
+    left: 50px;
+}
+
+.section__maindiv{
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+.section__p{
+    margin: 20px 0;
+    text-align: left;
+    line-height: 30px;
+}
+.section__zahl--person span{
+    display: inline-block;
+    border: 1px solid black;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+}
+.section__zahl--person span:nth-child(2){
+    border-left: none;
+    border-right: none;
 }
