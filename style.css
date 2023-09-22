@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.nav{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__div{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    line-height: 25px;
+}
