@@ -17,6 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
     
 }
 
@@ -55,15 +56,19 @@ body{
     height: 400px;
     width: 400px;
     position: relative;
-    border: 2px red solid;
-    top: 200px;
+    
+    top: 150px;
     left: 50px;
+}
+.section__h2{
+    padding-top: 20px;
 }
 
 .section__maindiv{
     margin: 20px;
     text-align: center;
-    border: 2px solid black;
+    
+    
 }
 .section__p{
     margin: 20px 0;
@@ -76,8 +81,18 @@ body{
     width: 70px;
     height: 40px;
     line-height: 40px;
+    
 }
 .section__zahl--person span:nth-child(2){
     border-left: none;
     border-right: none;
+}
+.section__form{
+    margin: 20px;
+}
+
+.section__button{
+    margin: 20px;
+    background-color: #83A638 ;
+    padding: 10px 20px;
 }
